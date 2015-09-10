@@ -68,18 +68,25 @@
 	    <fieldset>
 		    <h2>Stage</h2>
 		    <p>Geschikt voor:</p><br>
-		    <input type="checkbox" name="tweede">Tweedejaars studenten
-		    <input type="checkbox" name="afstudeer">Afstudeer studenten
-		    <input type="checkbox" name="onbekend">Onbekend
-		    <br>
+		    <input type="checkbox" name="tweede" id="tweede">
+		    <label for="tweede">Tweedejaars studenten</label>
+
+		    <input type="checkbox" name="afstudeer" id="afstudeer">
+		    <label for="afstudeer">Afstudeer studenten</label>
+
+		    <input type="checkbox" name="onbekend" id="onbekend">
+		    <label for="onbekend">Onbekend</label>
+
 		    <p>Hoe lang is de stage?</p><br>
-		    <input type="radio" name="weken">
-		    <label name="weken">10 weken</label>
-		    <input type="radio" name="weken">
-		    <label name="weken2">20 weken</label>
-		    <br>
+			<input type="radio" name="opleiding" id="week">
+			<label for="week">10 weken</label>
+			<br>
+			<input type="radio" name="opleiding" id="weeks">
+			<label for="weeks">20 weken</label>
+
 		    <label for="datum">Begin datum:</label>
 		    <input type="date" id="datum">
+
 		    <label for="Bedrijf">Bedrijfsnaam:</label>
 		    <input type="text" id="Bedrijf">
 		    <label for="adres1">Adres:</label>
