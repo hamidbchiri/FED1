@@ -42,11 +42,16 @@
 			<label for="titel">Doelstelling/intentievanhetproject:</label>
 		    <textarea></textarea>
 		    <p><strong>Geschikt voor</strong></p>
-		    <input type="checkbox" name="eerste">Eerstejaars studenten
-		    <input type="checkbox" name="tweede">Tweedejaars studenten	    
-		    <input type="checkbox" name="derde">Derdejaars studenten
-			<input type="checkbox" name="afstudeer">Afstudeer studenten
-			<input type="checkbox" name="onbekend">Onbekend
+			<input type="checkbox" name="eerstejaars" id="eerstejaars">
+			<label for="eerstejaars">Eerstejaars studenten</label>
+		    <input type="checkbox" name="tweedejaars" id="tweedejaars">
+		    <label for="tweedejaars">Tweedejaars studenten</label>	    
+		    <input type="checkbox" name="derdejaars" id="derdejaars">
+		    <label for="derdejaars">Derdejaars studenten</label>
+			<input type="checkbox" name="afstudeerstudent" id="afstudeerstudent">
+			<label for="afstudeerstudent">Afstudeer studenten</label>
+			<input type="checkbox" name="onbekends" id="onbekends">
+			<label for="onbekends">Onbekend</label>
 			<p>Opmerking:</p>
 			<textarea name="comments" cols="20" rows="4">Plaats hier opmerking..</textarea>
 		</fieldset>
